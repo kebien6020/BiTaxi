@@ -1,0 +1,109 @@
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav .brand-logo {
+  transform: translateX(8px);
+}
+
+nav .valign-wrapper, nav .brand-logo {
+  height: 100%;
+}
+
+nav .brand-logo .valign-wrapper {
+  float: left;
+}
+
+nav .logo-round-border {
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 0;
+  width: 56px;
+  height: 56px;
+}
+
+nav .logo-round-border i {
+  width: 100%;
+  height: 100%;
+  display: block;
+  color: #000;
+}
+
+nav .logo-round-border i::before {
+  margin: 0;
+  padding: 0;
+  line-height: 36px;
+  font-size: 36px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+}
+
+nav .logo-text {
+  float: left;
+}
+
+nav li.nav-profile a > div {
+  float: left;
+  height: 64px;
+}
+
+nav .profile-image-wrapper {
+  display: inline-block;
+}
+
+nav .profile-details {
+  width: 150px;
+  padding-left: 16px;
+}
+
+nav * {
+  /* border: 1px solid black; */
+}
+
+nav .profile-details > div {
+  height: 32px;
+  padding: 0;
+}
+
+nav .profile-details > div span {
+  position: absolute;
+  height: 32px;
+  line-height: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+nav .profile-name span {
+  top: 12px;
+}
+
+nav .profile-star-rating span {
+  top: 24px;
+}
+
+nav .profile-details .profile-star-rating i {
+  font-size: 16px;
+  line-height: 16px;
+  /* position: static; */
+}
+
+nav .profile-details i, nav .profile-details i::before {
+  height: 32px;
+  line-height: 32px;
+}
+
+main .main-map {
+  width: 100%;
+  height: calc(100vh - 56px);
+}
+
+@media only screen and (min-width: 601px) {
+  main .main-map {
+    height: calc(100vh - 64px);
+  }
+}
