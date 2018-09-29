@@ -1,0 +1,25 @@
+{
+  "name": "BiTaxi",
+  "version": "1.0.0",
+  "description": "Proyecto de software para curso fullstack.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kebien6020/BiTaxi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kebien6020/BiTaxi/issues"
+  },
+  "homepage": "https://github.com/kebien6020/BiTaxi#readme"
+}
