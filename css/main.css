@@ -107,3 +107,19 @@ main .main-map {
     height: calc(100vh - 64px);
   }
 }
+
+main .search-bar-wrapper {
+  position: absolute;
+  width: 100%;
+
+  top: 128px;
+}
+
+main .search-bar {
+  border-radius: 5px;
+}
+
+main .search-bar .input-field {
+  margin-top: 16px;
+  margin-bottom: 4px;
+}
