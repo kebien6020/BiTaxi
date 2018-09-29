@@ -34,7 +34,7 @@
             <li><a href="#">Favoritos</a></li>
             <li><a href="#">Mis viajes</a></li>
             <li class="nav-profile">
-              <a href="#">
+              <a class="dropdown-trigger clearfix" href="#!" data-target="profile-options">
                 <div class="profile-image-wrapper">
                   <i class="far fa-user-circle"></i>
                 </div>
@@ -53,6 +53,11 @@
                   </div>
                 </div>
               </a>
+              <ul id="profile-options" class="dropdown-content">
+                <li><a href="#!"><i class="fas fa-user"></i>Perfil</a></li>
+                <li class="divider"></li>
+                <li><a href="#!"><i class="fas fa-sign-out-alt"></i>Cerrar sesión</a></li>
+              </ul>
             </li>
           </ul>
         </div>
@@ -82,5 +87,7 @@
     <!-- Scripts at the end -->
     <!-- Materialize -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Main -->
+    <script src="js/main.js" charset="utf-8"></script>
   </body>
 </html>
